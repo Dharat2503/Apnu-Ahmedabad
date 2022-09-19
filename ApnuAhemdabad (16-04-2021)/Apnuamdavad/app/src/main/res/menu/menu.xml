@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:icon="@drawable/ic_baseline_home_24"
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+            android:id="@+id/nav_category"
+            android:title="Category" />
+        <item
+            android:icon="@drawable/ic_baseline_directions_subway_filled_24"
+            android:id="@+id/nav_bus_route"
+            android:title="Bus Route" />
+        <item
+            android:icon="@drawable/ic_baseline_event_24"
+            android:id="@+id/nav_event"
+            android:title="Event" />
+        <item
+            android:icon="@drawable/ic_baseline_live_tv_24"
+            android:id="@+id/nav_news"
+            android:title="News" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:icon="@drawable/ic_baseline_person_24"
+                android:id="@+id/nav_profile"
+                android:title="Profile" />
+            <item
+                android:icon="@drawable/ic_baseline_contacts_24"
+                android:id="@+id/nav_ContactUs"
+                android:title="Contact Us" />
+            <item
+                android:icon="@drawable/ic_baseline_feedback_24"
+                android:id="@+id/nav_Feedback"
+                android:title="Feedback" />
+        </menu>
+
+    </item>
+
+</menu>

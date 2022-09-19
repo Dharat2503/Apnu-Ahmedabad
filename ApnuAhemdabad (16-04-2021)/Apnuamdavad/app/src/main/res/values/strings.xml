@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Apnuamdavad</string>
+    <string name="login">Login</string>
+    <string name="enter_email">Enter Email:</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="Login">LOGIN</string>
+    <string name="todo">TODO</string>
+    <string name="password">Enter password:</string>
+    <string name="login_user">LOGIN USER</string>
+    <string name="user_id">User Id</string>
+    <string name="pass">Password</string>
+    <string name="psd">password</string>
+</resources>

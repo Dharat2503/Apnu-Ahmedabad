@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:orientation="vertical"
+    tools:context=".history">
+
+
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ViewFlipper
+      android:id="@+id/bgflipper1"
+      android:layout_width="match_parent"
+      android:layout_height="300dp">
+      <ImageView
+        android:id="@+id/bg1"
+        android:layout_margin="10dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wp13" />
+
+      <ImageView
+        android:id="@+id/bg2"
+        android:layout_margin="10dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wp14" />
+
+      <ImageView
+        android:id="@+id/bg3"
+        android:layout_margin="10dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wp22" />
+
+      <ImageView
+        android:id="@+id/bg4"
+        android:layout_margin="10dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wp23" />
+
+      <ImageView
+        android:id="@+id/bg5"
+        android:layout_margin="10dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wp3" />
+
+      <ImageView
+        android:id="@+id/bg6"
+        android:layout_margin="10dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wp15" />
+
+      <ImageView
+        android:id="@+id/bg7"
+        android:layout_margin="10dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wp8" />
+
+      <ImageView
+        android:id="@+id/bg8"
+        android:layout_margin="10dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wp5" />
+
+      <ImageView
+        android:id="@+id/bg9"
+        android:layout_margin="10dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wp9" />
+
+      <ImageView
+        android:id="@+id/bg10"
+        android:layout_margin="10dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wp22" />
+
+
+    </ViewFlipper>
+  </LinearLayout>
+
+
+
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:scrollbarSize="@android:dimen/app_icon_size">
+      <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:layout_gravity="center_horizontal"
+    android:textSize="30dp"
+    android:textStyle="normal"
+    android:textColor="#1B0450"
+    android:text="Ahmedabad, The capital of Gujarat.Ahmedabad also called Amdavad.
+ Former capital of Gujarat  Originally known as Karnavati.
+On the 1st of May in the year 1960, Ahmedabad became the capital city of Gujarat. During the freedom struggle of India, it served as the home of many prominent nationalist leaders like Sardar Patel and Mahatma Gandhi.
+ related the flying kites and their colors to the nature of the city)"
+    android:textDirection="firstStrong"/>
+
+
+
+</ScrollView>
+</LinearLayout>

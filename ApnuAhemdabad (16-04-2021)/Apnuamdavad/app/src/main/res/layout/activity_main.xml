@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context=".MainActivity">
+
+  <LinearLayout
+      android:layout_marginBottom="80dp"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvskip"
+        android:background="#00000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/color_border"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip" />
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_margin="20dp"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/c_img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:src="@drawable/logo"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="1dp" />
+
+
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Your Travel ...."
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        >
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Email"
+          app:startIconTint="@color/black"
+          app:hintTextColor="@color/black"
+          android:textColorHint="@color/black"
+          app:endIconMode="clear_text"
+          app:startIconDrawable="@drawable/ic_baseline_email_24"
+          app:endIconTint="@color/black"
+          app:boxStrokeWidthFocused="2dp"
+          app:boxStrokeColor="@color/color_border"
+          style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/login_email"
+            android:inputType="textEmailAddress">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Password"
+          app:startIconTint="@color/black"
+          app:hintTextColor="@color/black"
+          android:textColorHint="@color/black"
+          app:endIconMode="password_toggle"
+          app:passwordToggleTint="@color/black"
+          app:passwordToggleEnabled="false"
+          app:endIconTint="@color/black"
+          app:startIconDrawable="@drawable/ic_baseline_lock_24"
+          app:boxStrokeWidthFocused="2dp"
+          app:boxStrokeColor="@color/color_border"
+          style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/login_password"
+            android:inputType="textPassword">
+        </com.google.android.material.textfield.TextInputEditText>
+
+
+      </com.google.android.material.textfield.TextInputLayout>
+
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btn_forgotpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget passsword?"
+            android:background="#00000000"
+            android:textSize="15dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true">
+
+        </Button>
+
+      </RelativeLayout>
+
+
+      <Button
+          android:textAllCaps="false"
+          android:id="@+id/btn_login"
+          android:transitionName="transition_Next_btn"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Login"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          android:background="@drawable/btn_background"
+          android:textColor="@color/white"
+          app:elevation="20dp"
+          ></Button>
+
+      <LinearLayout
+
+          android:gravity="center"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+        <TextView
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New user? "
+            ></TextView>
+
+
+        <TextView
+            android:textAllCaps="false"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/btn_registation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register Now"
+            android:textColor="@color/color_border"
+            ></TextView>
+
+
+      </LinearLayout>
+
+    </LinearLayout>
+  </LinearLayout>
+
+
+
+
+
+
+
+  <TextView
+    android:id="@+id/tv2"
+    android:layout_width="match_parent"
+    android:layout_height="29dp"
+    android:layout_marginLeft="50dp"
+    android:text="Create a new account/signup?"
+    android:textColor="#191717"
+    android:textSize="20dp"
+    android:textStyle="bold" />
+</LinearLayout>
